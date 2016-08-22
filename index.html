@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Bootstrap: Grid System</title>
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/main.css">
+      <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+      <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+     
+  </head>
+  <body>
+    <header><!-- inicia mi página TIMEBEACH-->
+      <div class="container">
+        <div class="row"> 
+          <div class="col-lg-3 col-xs-5 col-sm-5"><!-- inicia mi navegador superior-->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">BeachTIME</a><!-- nombre del sitio-->
+            </div>  
+          </div>
+          <div class="col-lg-3 col-xs-3 col-sm-4">
+            <ul class="nav navbar-nav modifizq cambiarp">
+              <li><a href="#"><span class="glyphicon glyphicon-home" ></span>Noticias </a></li> <!-- elemento link con icono-->
+            </ul>
+          </div>
+          <div class="col-lg-2 col-xs-4 col-sm-3">
+            <ul class="nav navbar-nav">
+              <li><a href="#"><span class="glyphicon glyphicon-home" ></span>Enlaces RSS</a></li> <!-- elemento link con icono-->
+            </ul>
+          </div>
+          <div class="col-lg-4"><!-- inicia mi codigo para el buscador-->
+            <form class="navbar-form navbar-left hidden-sm hidden-xs">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </form>
+          </div><!-- termina mi codigo para el buscador-->
+        </div> 
+        <div class="row"> <!-- inicia mi codigo para el segundo navegador que se hara una haburguesa cuando sea XS-->
+          <div class="col-lg-12 letrp"> 
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button id="bajarlo" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="sr-only">Menu</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav nav-tabs navbar-left">
+                  <li role="presentation" class="active"><a href="#">Bienvenido</a></li><!-- inicia los elementos de mi nagefador nota:active es para que en la pagina se vea cual elemento está seleccinado-->
+                  <li role="presentation"><a href="#">Actualidades</a></li>
+                  <li role="presentation"><a href="#">En directo</a></li>
+                  <li role="presentation"><a href="#">Reporte financiero</a></li>
+                  <li role="presentation"><a href="#">Nuestra oferta</a></li>
+                  <li role="presentation"><a href="#">De nosotros a usted</a></li>
+                </ul> 
+              </div>
+            </nav>
+          </div>
+        </div><!-- finaliza ROW -->
+      </div><!-- finaliza container -->
+    </header><!-- termina header-->
+    <section> <!-- inicia mi primera section-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default marg hidden-xs">Historia destacada</button><!-- primer botton-->
+            </div>
+            <p> Articulo │ publicado el 05/10/15</p>
+            <p> <b>Lorem ipsum et diligat gentris</b></p>
+            <p class="text-justify"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volu</p>
+            <div class="row">
+              <div class="col-lg-5 col-sm-4 col-xs-5">
+                <p><span class="glyphicon glyphicon-home" ></span><a href="#">Ver más...</a></p> <!-- elemento con icono-->
+              </div>
+              <div class="col-lg-7 col-sm-8 col-xs-7">
+                <p><span class="glyphicon glyphicon-home" ></span>Etiquetas:<a href="#" class="sub"> lorem</a> <a href="#" class="sub">ipsum</a> <a href="#" class="sub">diligat</a> </p> 
+              </div>
+            </div>
+            <hr class="lineaH2"/>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="btn-group" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default marg">Webzone</button>
+                </div>
+              </div>
+              <div class="col-lg-9 padd">
+                <p><a href="#">Preguntas</a> │ publicado el 05/10/15 </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <p><b>Lorem ipsum et diligat gentris</b></p>
+                <p class="text-justify"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volu</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5 col-sm-4 col-xs-5">
+                <p><span class="glyphicon glyphicon-home" ></span><a href="#">Ver más...</a></p> <!-- elemento con icono--> 
+              </div>
+              <div class="col-lg-7 col-sm-8 col-xs-7">
+                <p><span class="glyphicon glyphicon-home" ></span>Etiquetas:<a href="#" class="sub"> lorem</a> <a href="#" class="sub">ipsum</a> <a href="#" class="sub">diligat</a> </p>  
+              </div>
+            </div>
+            <hr class="lineaH2"/>
+            <p> Articulo │ publicado el 05/10/15</p>
+            <p><b>Etiam Lorem ipsum et diligat</b></p>
+            <img class="img-responsive" src="http://img0.es.ndsstatic.com/wallpapers/d3d2d52b2c9b945906741d55667a24e3_large.jpeg">
+            <p class="text-justify marga"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volu</p>
+            <div class="row">
+              <div class="col-lg-5 col-sm-4 col-xs-5">
+                <p><span class="glyphicon glyphicon-home" ></span><a href="#">Ver más...</a></p> <!-- elemento con icono-->
+              </div>
+              <div class="col-lg-7 col-sm-8 col-xs-7">
+                <p><span class="glyphicon glyphicon-home" ></span>Etiquetas:<a href="#" class="sub"> lorem</a> <a href="#" class="sub">ipsum</a> <a href="#" class="sub">diligat</a> </p>  
+              </div>
+            </div>
+            <hr class="lineaH"/>
+            <p ><b>Lorem ipsum et diligat gentris</b></p>
+            <p class="text-justify"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volu</p>
+            <div class="row">
+              <div class="col-lg-5 col-sm-4 col-xs-5">
+                <p><span class="glyphicon glyphicon-home" ></span><a href="#">Ver más...</a></p> <!-- elemento con icono-->
+              </div>
+              <div class="col-lg-7 col-sm-8 col-xs-7">
+                <p><span class="glyphicon glyphicon-home" ></span>Etiquetas:<a href="#" class="sub"> lorem</a> <a href="#" class="sub">ipsum</a> <a href="#" class="sub">diligat</a> </p> 
+              </div>
+              <hr class="lineaH"/>
+            </div>
+          </div> <!-- inicia mi codigo para el buscador-->
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="caja23">
+                <button type="button" class="btn btn-default marg">Historia destacada</button>
+                <iframe class="padd" src="https://www.youtube.com/embed/TJAfLE39ZZ8" width="100%" height="215" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><!-- video-->
+                <p class="espacio"><b>Lorem ipsum et diligat gentris</b></p>
+                <p class="text-justify espacio"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-7 col-xs-6">
+                    <p class="espacio">publicado el 09/10/15</p> 
+                  </div>
+                  <div class="col-lg-6 col-sm-5 col-xs-6">
+                    <p class="espacio"><span class="glyphicon glyphicon-home" ></span><a href="#">Ver más...</a></p> 
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-default marg">Agenda</button>
+              <div class="row">
+                <div class="col-lg-4 col-sm-3 col-xs-3">
+                  <p class="caja233" id="mastam" align="center">23<br>Enero</p>
+                </div>
+                <div class="col-lg-8 col-sm-9 col-xs-9">
+                  <p><b>Lorem ipsum et diligat</b></p>
+                  <p class="text-left"> Sed ut perspiciatis unde omnis iste natus error sit</p>
+                  <p>De 23 a 28 Diciembre 2015</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-3 col-xs-3">
+                  <p class="caja233" id="mastam" align="center">23<br>Enero</p>
+                </div>
+                <div class="col-lg-8 col-sm-9 col-xs-9">
+                  <p><b>Lorem ipsum et diligat</b></p>
+                  <p class="text-left"> Sed ut perspiciatis unde omnis iste natus error sit</p>
+                  <p>De 23 a 28 Diciembre 2015</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-3 col-xs-3">
+                  <p class="caja233" id="mastam" align="center">23<br>Enero</p>
+                </div>
+                <div class="col-lg-8 col-sm-9 col-xs-9">
+                  <p><b>Lorem ipsum et diligat</b></p>
+                  <p class="text-left"> Sed ut perspiciatis unde omnis iste natus error sit</p>
+                  <p>De 23 a 28 Diciembre 2015</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-sm-3 col-xs-3">
+                  <p class="caja233" id="mastam" align="center">23<br>Enero</p>
+                </div>
+                <div class="col-lg-8 col-sm-9 col-xs-9">
+                  <p><b>Lorem ipsum et diligat</b></p>
+                  <p class="text-left"> Sed ut perspiciatis unde omnis iste natus error sit</p>
+                  <p>De 23 a 28 Diciembre 2015</p>
+                </div>
+              </div>
+              <hr class="lineaH"/>
+              <p><b>Más información</b></p>
+              <p><a href="#">Localidades</a></p>
+              <p><b>Lorem ipsum et diligat</b><br>Sed ut perspiciatis unde omnis iste natus error sit perspiciatis unde</p>
+              <p><a href="#">Hospidemia</a></p>
+              <p><b>Lorem ipsum et diligat</b><br>Sed ut perspiciatis unde omnis iste natus error sit perspiciatis unde</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 hidden-sm hidden-xs">
+                <p><b>Más información</b></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Finanzas y fiscalización </span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Inversión y equipos </span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Medio ambiente </span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Habitat/Urbanismo </span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Sanidad</span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Social/Servicios</span></p>
+                <p><span class="glyphicon glyphicon-bookmark"> Transporte</span></p>
+                <hr class="lineaH"/>
+                <div class="cajagris2 padd hidden-xs">
+                  <p>MEGAZINE<br><b>ECODEFI</b></p>
+                  <p>ENQUETE<br>Sed ut perspiciatis unde omnis<br> iste natus error sit perspiciatis<br> undeSed ut perspiciatis unde omnis <br>iste natus error sit perspiciatis</p>
+                  <p>PREGUNTAS <br> Sed ut perspiciatis unde omnis<br> iste natus error sit perspiciatis</p>
+                </div>
+                <div class="cajagris2 padd hidden-xs">
+                  <p>MEGAZINE<br><b>ACCIONES COMUNES</b></p>
+                  <p>ENQUETE<br>Sed ut perspiciatis unde omnis<br> iste natus error sit perspiciatis<br> undeSed ut perspiciatis unde omnis <br>iste natus error sit perspiciatis</p>
+                  <p>PREGUNTAS <br> Sed ut perspiciatis unde omnis<br> iste natus error sit perspiciatis</p>
+                </div>
+                <div class="cajagris3 padd hidden-xs">
+                  <p><b>Nueva generación de la <br> internet</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr id="lineacol"/>
+    <footer class="marg">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-3 col-sm-3 col-xs-6"><!-- primera parte del footer -->
+            <p><b>Rubros</b></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Actualidades </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> En directo </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Reporte financiero </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Nuestra oferta </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> De Nosotros a ustedes</span></p>
+          </div>
+          <div class="col-lg-2 hidden-sm hidden-xs"><!-- segunda parte del footer -->
+            <p><b>Experise</b></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Finanzas y fiscalización </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Invstigación y equipos </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Medio ambiente </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Habitat/Urbanismo</span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Sanidad</span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Social/Servicios</span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Transporte</span></p>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-xs-6"><!-- tercera parte del footer -->
+            <p><b>Suscripción</b></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Todo el flujo </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Flujo RSS para expertos </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Noticias </span></p>
+          </div>
+          <div class="clearfix visible-xs-block">
+          </div>
+          <div class="col-lg-3 col-sm-3 col-xs-6"><!-- cuarta parte del footer -->
+            <p ><b>Nosotros</b></p>
+            <p><span class="glyphicon glyphicon-bookmark"> ¿Quienes somos? </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Plan del sitio </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Información legal </span></p>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-xs-6"><!-- quinta parte del footer -->
+            <p><b>Contacto</b></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Contáctanos </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> FAQ </span></p>
+            <p><span class="glyphicon glyphicon-bookmark"> Haga sus preguntas </span></p>
+          </div>
+        </div> 
+      </div>
+    </footer>        
+  	<!-- Incluir todos tus scripts apartir de este punto -->
+      <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
